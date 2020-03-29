@@ -25,6 +25,25 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `data_booking`
+--
+
+CREATE TABLE `data_booking` (
+  `name_booked` varchar(30) NOT NULL,
+  `start` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `finish` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `detail` varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `data_booking`
+--
+
+INSERT INTO `data_booking` (`name_booked`, `start`, `finish`, `detail`) VALUES
+('Veri Anggoro', '2020-03-30 02:00:00', '2020-03-30 04:00:00', 'Meeting Weekly');
+
+-- --------------------------------------------------------
+--
 -- Table structure for table `room`
 --
 

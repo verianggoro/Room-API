@@ -3,7 +3,7 @@ certifi==2019.6.16
 chardet==3.0.4
 Flask==1.1.1
 Flask-Caching==1.8.0
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 flask-marshmallow==0.10.1
 Flask-Mobility==0.1.1
 Flask-RESTful==0.3.7
